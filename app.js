@@ -16,6 +16,10 @@ const Sequelize = require('sequelize');
         dialect:"mysql"
     })
 
+    app.get('/cad', function(req,res){
+        res.render("formulario");
+    })
+
 
 
 
