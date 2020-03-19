@@ -19,6 +19,9 @@ const Sequelize = require('sequelize');
     app.get('/cad', function(req,res){
         res.render("formulario");
     })
+    app.post('/add', function(req,res){
+        res.send("Formulario recebido");
+    })
 
 
 
